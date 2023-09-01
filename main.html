@@ -1,61 +1,39 @@
 <!DOCTYPE html>
-
+ 
 <html>
-
+ 
 <head>
 	<link rel="stylesheet" href="styles.css">
-	<style>
-		body{
-			background-color:  #cccccc;
-		}
-		.player {
-			margin-bottom: 20px;
-		}
-		.player .song {
-			margin-bottom: 10px;
-		}
-		.player .song a{
-			text-decoration: none;
-			color: #000;
-		}
-		.player .song a:hover{
-			color: #007BFF;
-		}
-	</style>
 </head>
-
+ 
 <body>
-	<!-- the entire body must be written by student -->
+	<h1 align="center">My Playlist</h1>
 	<div class="player_one">
-		<h3>My Playlist</h3>
-		<div class="song">
-		<a href="https://www.youtube.com/watch?v=kd-6aw99DpA" class="song">Song 1</a>
-		</div>	
-		<div class="song">
-		<a href="https://www.youtube.com/watch?v=9iIX4PBplAY" class="song">Song 2</a>
-		</div>		
-		<div class="song">
-		<a href="https://www.youtube.com/watch?v=IjBAgWKW12Y" class="song">Song 3</a>
-		</div>	
-		<div class="song">
-		<a href="https://www.youtube.com/watch?v=puKD3nkB1h4" class="song">Song 4</a>
-		</div>	
-		<div class="song">
-		<a href="https://www.youtube.com/watch?v=6MgsHSAcI9k" class="song">Song 5</a>
-		</div>
+		<ul>
+			<li><a href="https://www.youtube.com/watch?v=kd-6aw99DpA" target="_blank">Song 1</a></li>
+			<li><a href="https://www.youtube.com/watch?v=9iIX4PBplAY" target="_blank">Song 2</a></li>
+			<li><a href="https://www.youtube.com/watch?v=IjBAgWKW12Y" target="_blank">Song 3</a></li>
+			<li><a href="https://www.youtube.com/watch?v=puKD3nkB1h4" target="_blank">Song 4</a></li>
+			<li><a href="https://www.youtube.com/watch?v=6MgsHSAcI9k" target="_blank">Song 5</a></li>
+		</ul>
+ 
+	</div>
+<h2 align="center">Now Playing...</h2>
 	<div class="player_two">
-		<video controls>
-			<source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
-		</video>	
-	</div>	
-	<div class="player">
-		<audio controls>
-			<source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mp3">
-		</video>	
-	</div>		
-		<script type="text/javascript" src="./script.js">
+		<video width="320" height="240" controls>
+			  <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
+		</video>
+		<h2 align="center">MP3 songs</h2>
+		<audio controls style="width:100%;">
+		  <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
+		</audio>
+	</div>
+	
+	<!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
 </script>
-
+ 
 </body>
-
+ 
 </html>
+ 
